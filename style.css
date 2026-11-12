@@ -82,8 +82,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  opacity: 0;
-  animation: conveyorSlide 0.9s ease-out forwards;
+  animation: conveyorSlide 0.9s ease-out backwards;
 }
 
 .item-card:hover {
