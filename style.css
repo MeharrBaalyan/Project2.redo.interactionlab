@@ -5,7 +5,7 @@
 body {
   font-family: "Courier New", Courier, monospace;
   background-color: #14171a;
-  background-image: linear-gradient(rgba(20, 23, 26, 0.65), rgba(20, 23, 26, 0.65)), url("conveyor.jpg");
+  background-image: linear-gradient(rgba(20, 23, 26, 0.55), rgba(20, 23, 26, 0.55)), url("images/conveyor.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -62,11 +62,10 @@ body {
   max-width: 1100px;
   margin: 0 auto;
   padding: 24px;
-  background-color: rgba(30, 34, 39, 0.92);
+  background-color: rgba(30, 34, 39, 0.88);
   border: 4px solid #343a40;
 }
 
-/* Conveyor belt slide-in motion */
 @keyframes conveyorSlide {
   from {
     opacity: 0;
@@ -95,7 +94,6 @@ body {
   border-color: #adb5bd;
 }
 
-/* Staggered arrival delays */
 .delay-1 { animation-delay: 0.1s; }
 .delay-2 { animation-delay: 0.25s; }
 .delay-3 { animation-delay: 0.4s; }
@@ -165,7 +163,6 @@ body {
   color: #14171a;
 }
 
-/* Detail Page Layout */
 .detail-page {
   max-width: 760px;
   margin: 0 auto;
