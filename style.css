@@ -228,3 +228,13 @@ body {
   color: #adb5bd;
   width: 38%;
 }
+body {
+  background-image: linear-gradient(rgba(20, 23, 26, 0.3), rgba(20, 23, 26, 0.3)), url("images/conveyor.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.tray-container {
+  background-color: rgba(30, 34, 39, 0.5);
+}
