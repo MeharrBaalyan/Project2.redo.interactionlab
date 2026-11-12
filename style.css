@@ -9,6 +9,10 @@ body {
   margin: 0;
   padding: 32px 20px;
   overflow-x: hidden;
+  background-image: linear-gradient(rgba(20, 23, 26, 0.7), rgba(20, 23, 26, 0.7)), url("images/conveyor.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .site-header {
