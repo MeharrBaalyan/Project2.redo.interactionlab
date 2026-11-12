@@ -4,92 +4,85 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Security Screening — Bag Inventory</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <header>
+  <header class="site-header">
     <h1>PASSENGER BAG SCREENING // BIN #04</h1>
-    <p>Select an item below to inspect screening notes and regulations.</p>
+    <p>All items removed from carry-on bag for X-ray screening.</p>
   </header>
 
-  <main>
-    <section>
-      <h2>Cleared Items</h2>
-      <ul>
-        <li>
-          <img src="images/wallet.jpg" alt="Black MagSafe wallet" width="200">
-          <h3>MagSafe Wallet</h3>
-          <p>Status: CLEARED</p>
-          <a href="wallet.html">Inspect item</a>
-        </li>
-        <li>
-          <img src="images/airpods.jpg" alt="AirPods in protective case" width="200">
-          <h3>AirPods</h3>
-          <p>Status: CLEARED</p>
-          <a href="airpods.html">Inspect item</a>
-        </li>
-        <li>
-          <img src="images/charger.jpg" alt="Silver portable charger" width="200">
-          <h3>Portable Charger</h3>
-          <p>Status: CLEARED</p>
-          <a href="charger.html">Inspect item</a>
-        </li>
-        <li>
-          <img src="images/notebook.jpg" alt="Spiral bound brown notebook" width="200">
-          <h3>Notebook</h3>
-          <p>Status: CLEARED</p>
-          <a href="notebook.html">Inspect item</a>
-        </li>
-        <li>
-          <img src="images/hairties.jpg" alt="Claw clip and hair ties" width="200">
-          <h3>Hair Ties &amp; Clip</h3>
-          <p>Status: CLEARED</p>
-          <a href="hairties.html">Inspect item</a>
-        </li>
-      </ul>
-    </section>
+  <main class="tray-container">
+    <div class="item-card">
+      <img src="images/wallet.jpg" alt="Black MagSafe wallet">
+      <h2>MagSafe Wallet</h2>
+      <p class="status cleared">CLEARED</p>
+      <a href="wallet.html">See details</a>
+    </div>
 
-    <section>
-      <h2>Secondary Inspection</h2>
-      <ul>
-        <li>
-          <img src="images/earphones.jpg" alt="Tangled wired earphones" width="200">
-          <h3>Wired Earphones</h3>
-          <p>Status: INSPECT</p>
-          <a href="earphones.html">Inspect item</a>
-        </li>
-        <li>
-          <img src="images/pouch.jpg" alt="Cream Dior zipper pouch" width="200">
-          <h3>Essentials Pouch</h3>
-          <p>Status: INSPECT</p>
-          <a href="pouch.html">Inspect item</a>
-        </li>
-        <li>
-          <img src="images/snacks.jpg" alt="Protein bar and mixed nuts" width="200">
-          <h3>Snacks</h3>
-          <p>Status: INSPECT</p>
-          <a href="snacks.html">Inspect item</a>
-        </li>
-      </ul>
-    </section>
+    <div class="item-card">
+      <img src="images/airpods.jpg" alt="AirPods in protective case">
+      <h2>AirPods</h2>
+      <p class="status cleared">CLEARED</p>
+      <a href="airpods.html">See details</a>
+    </div>
 
-    <section>
-      <h2>Remove From Bag</h2>
-      <ul>
-        <li>
-          <img src="images/sanitizer.jpg" alt="Small red hand sanitizer bottle" width="200">
-          <h3>Hand Sanitizer</h3>
-          <p>Status: REMOVE</p>
-          <a href="sanitizer.html">Inspect item</a>
-        </li>
-        <li>
-          <img src="images/laptop.jpg" alt="Silver MacBook laptop" width="200">
-          <h3>Laptop</h3>
-          <p>Status: REMOVE</p>
-          <a href="laptop.html">Inspect item</a>
-        </li>
-      </ul>
-    </section>
+    <div class="item-card">
+      <img src="images/earphones.jpg" alt="Tangled wired earphones">
+      <h2>Wired Earphones</h2>
+      <p class="status inspect">INSPECT</p>
+      <a href="earphones.html">See details</a>
+    </div>
+
+    <div class="item-card">
+      <img src="images/sanitizer.jpg" alt="Small red hand sanitizer bottle">
+      <h2>Hand Sanitizer</h2>
+      <p class="status remove">REMOVE</p>
+      <a href="sanitizer.html">See details</a>
+    </div>
+
+    <div class="item-card">
+      <img src="images/pouch.jpg" alt="Cream Dior zipper pouch">
+      <h2>Essentials Pouch</h2>
+      <p class="status inspect">INSPECT</p>
+      <a href="pouch.html">See details</a>
+    </div>
+
+    <div class="item-card">
+      <img src="images/charger.jpg" alt="Silver portable charger">
+      <h2>Portable Charger</h2>
+      <p class="status cleared">CLEARED</p>
+      <a href="charger.html">See details</a>
+    </div>
+
+    <div class="item-card">
+      <img src="images/laptop.jpg" alt="Silver MacBook laptop">
+      <h2>Laptop</h2>
+      <p class="status remove">REMOVE</p>
+      <a href="laptop.html">See details</a>
+    </div>
+
+    <div class="item-card">
+      <img src="images/notebook.jpg" alt="Spiral bound brown notebook">
+      <h2>Notebook</h2>
+      <p class="status cleared">CLEARED</p>
+      <a href="notebook.html">See details</a>
+    </div>
+
+    <div class="item-card">
+      <img src="images/hairties.jpg" alt="Claw clip and hair ties">
+      <h2>Hair Ties &amp; Clip</h2>
+      <p class="status cleared">CLEARED</p>
+      <a href="hairties.html">See details</a>
+    </div>
+
+    <div class="item-card">
+      <img src="images/snacks.jpg" alt="Protein bar and mixed nuts">
+      <h2>Snacks</h2>
+      <p class="status inspect">INSPECT</p>
+      <a href="snacks.html">See details</a>
+    </div>
   </main>
 
 </body>
