@@ -115,3 +115,86 @@ body {
   background-color: #f8f9fa;
   color: #14171a;
 }
+
+.filter-bar {
+  max-width: 1100px;
+  margin: 0 auto 20px auto;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  font-size: 0.85rem;
+  color: #adb5bd;
+}
+
+.filter-bar .status {
+  margin: 0;
+}
+
+/* Detail Page Layout */
+.detail-page {
+  max-width: 760px;
+  margin: 0 auto;
+  background-color: #1e2227;
+  border: 2px solid #495057;
+  padding: 28px;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #adb5bd;
+  text-decoration: none;
+  font-size: 0.85rem;
+  border-bottom: 1px solid #adb5bd;
+  padding-bottom: 2px;
+}
+
+.back-link:hover {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.detail-grid {
+  display: flex;
+  gap: 28px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.detail-grid img {
+  width: 280px;
+  max-width: 100%;
+  border: 2px solid #495057;
+}
+
+.detail-info {
+  flex: 1;
+  min-width: 240px;
+}
+
+.detail-info h1 {
+  margin: 0 0 12px 0;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.spec-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+  font-size: 0.85rem;
+}
+
+.spec-table th,
+.spec-table td {
+  border: 1px solid #495057;
+  padding: 10px;
+  text-align: left;
+}
+
+.spec-table th {
+  background-color: #262b31;
+  color: #adb5bd;
+  width: 38%;
+}
